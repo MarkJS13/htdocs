@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background-color: rgba(15, 53, 54, 0.24);
+    height: 100vh;
+}
+
+
+a,li,ul {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    background-color: aliceblue;
+    padding: 30px;
+    position: absolute;
+    width: 100%;
+}
+
+a {
+    font-size: 20px;
+}
+
+
+
+.content-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.text-welcome {
+  
+    text-align: center;
+}
+
+.text-welcome h1 {
+    font-size: 60px;
+}
+
+.text-welcome p {
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.text-welcome p span a{
+    cursor: pointer;
+    font-size: 35px;
+    
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+}
+
+form div label {
+    font-size: 25px;
+}
+
+form div input {
+    height: 40px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.submit {
+    width: 40%;
+}
+
+.greet {
+    text-align: center;
+}
+
+.greet h1 {
+    font-size: 50px;
+}
